@@ -1,0 +1,40 @@
+- src/decoder.cardiac:
+  - description: decoder.cardiac uses the shift instruction
+    category: Programming the CARDIAC
+    check: MatchFileRegex
+    options:
+      regex: 4[0-9]{2}
+      count: 1
+      exact: false
+- src/subroutine.cardiac:
+  - description: decoder.cardiac uses the unconditional jump instruction at least twice                    
+    category: Programming the CARDIAC
+    check: MatchFileRegex
+    options:
+      regex: 8[0-9]{2}
+      count: 2
+      exact: false
+- src/high_dimension_adder.cardiac:
+  - description: high_dimension_adder.cardiac uses the unconditional jump instruction at least twice
+    category: Programming the CARDIAC
+    check: MatchFileRegex
+    options:
+      regex: 8[0-9]{2}
+      count: 2
+      exact: false
+- src/high_dimension_adder.cardiac:
+  - description: high_dimension_adder.cardiac uses the add instruction at least twice
+    category: Programming the CARDIAC
+    check: MatchFileRegex
+    options:
+      regex: 2[0-9]{2}
+      count: 1
+      exact: false
+- src/high_dimension_adder.cardiac:
+  - description: high_dimension_adder.cardiac uses the shift instruction at least once
+    category: Programming the CARDIAC
+    check: MatchFileRegex
+    options:
+      regex: 4[0-9]{2}
+      count: 1
+      exact: false
