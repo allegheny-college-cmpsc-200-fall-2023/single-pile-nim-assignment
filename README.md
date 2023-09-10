@@ -198,8 +198,8 @@ ADDRESS CONTENTS    COMMENTS
 ### Assignment "Hacks"
 
 See the `Suggestion` below to challenge yourself to implement a Hack. As always, you are allowed to develop
-your own Hack to satisfy this stretch goal. Place the code for the Hack inline with the code you write to 
-create the liftoff sequence program (i.e. make it part of the program).
+your own Hack to satisfy this stretch goal. Place the code for the Hack inline with the code in the corresponding
+file.
 
 In order to recieve credit for the Hack, you must fill out the [hack.md](docs/hack.md) file located in the
 `docs` folder.
